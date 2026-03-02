@@ -1,0 +1,66 @@
+/* General Accordion Styles */
+.accordion {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #646cff;
+    border-radius: 8px;
+    background-color: #000000;
+}
+
+/* Accordion Item Styles */
+.accordion-item {
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+/* Accordion Title Button */
+.accordion-title {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background-color: #303030;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: 1px solid #000000;
+    border-radius: 3px;
+}
+
+.accordion-title:hover {
+    background-color: #494949;
+}
+
+.accordion-title[aria-expanded="true"] {
+    background-color: #423f3f;
+}
+
+.accordion-content {
+    padding: 15px;
+    background-color: #0f0f0f;
+    border-top: 1px solid #080808;
+    font-size: 14px;
+    border: 1px solid #646cff;
+    border-radius: 3px;
+}
+
+.accordion p {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+
+
+.right{
+    float: right;
+}
+
+.empty {
+    color: black;
+}
